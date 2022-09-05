@@ -1,0 +1,92 @@
+/* Fonts Imported */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+/* CSS Code */
+body {
+    margin: 0;
+    background-color: #55aab3;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.card {
+    border: 5px solid white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+}
+
+.card-header h1 {
+    color: #212121;
+}
+
+.card-header p {
+    color: #2121218a;
+}
+
+.card-bottom label {
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+/* Form Style */
+.form__field {
+    border: 1px solid silver !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #313a46;
+    height: 40px;
+    padding: 0rem 15px;
+}
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+/* Button Style */
+button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+
+button:hover {
+    color: #e8e8e8;
+}
+
+button:hover::before {
+    width: 100%;
+}
