@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcule seu IMC!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1>Calcule seu IMC</h1>
+                <p>Digite seu peso e altura no formulário abaixo, para calcularmos o seu IMC (Índice de Massa Corporal)</p>
+            </div>
+            
+            <div class="card-bottom">
+                <label for="height">Qual é sua altura? (cm)</label> <br>
+                <input type="number" class="form__field w-100" name="height" id="height"> <br><br>
+                
+                <label for="weight">Qual é seu peso? (kg)</label> <br>
+                <input type="number" class="form__field w-100" name="weight" id="weight"> <br><br>
+                
+                <button onclick="calcImc()">Calcular IMC</button> <br><br>
+                
+                <span id="resultado"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
