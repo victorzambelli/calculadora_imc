@@ -14,4 +14,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 ![preview](./preview.png/)
+[Clique aqui para acessar](https://calculadora-imc-alpha.vercel.app/)
 > **Objetivo:** Criar uma Calculadora IMC com JavaScript.
