@@ -16,7 +16,7 @@ body {
 
 .card {
     border: 5px solid white;
-    width: 50%;
+    max-width: 500px;
     margin: 0 auto;
     text-align: center;
     position: relative;
