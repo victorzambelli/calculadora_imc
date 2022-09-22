@@ -2,7 +2,6 @@
 Project developed to calculate a person's BMI.
 
 ## 🚀 Technologies
-
 This project was developed with the following technologies:
 - HTML
 - CSS
