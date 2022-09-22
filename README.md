@@ -1,18 +1,19 @@
 # calculadora_imc
-Projeto desenvolvido com base em calcular o imc de uma pessoa.
+Project developed to calculate a person's BMI.
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 - HTML
 - CSS
 - JavaScript
+- Git & Github
 
-## 📚 Bibliotecas:
+## 📚 Libraries
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Font Awesome](https://fontawesome.com/)
 
-## 💻 Projeto
+## 💻 Project
 ![preview](./preview.png/)
-[Clique aqui para acessar](https://calculadora-imc-alpha.vercel.app/)
-> **Objetivo:** Criar uma Calculadora IMC com JavaScript.
+[Click here to access project](https://calculadora-imc-alpha.vercel.app/)
+> **Objetivo:** Create a BMI calculator.
